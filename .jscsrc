@@ -67,7 +67,6 @@
         "binary",
         "string"
     ],
-
     "disallowSpacesInsideArrayBrackets": true,
 
     "requireDotNotation": true,
