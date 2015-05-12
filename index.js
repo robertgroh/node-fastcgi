@@ -38,7 +38,7 @@ exports.ServerResponse = exports.Response;
 /**
  * function createServer([responder], [authorizer], [filter], [config])
  * Creates and returns a FastCGI server object. Compatible with http.createServer
- * 
+ *
  * Arguments:
  *   - responder (optional): callback for FastCGI responder requests (normal HTTP requests, 'request' event)
  *   - authorizer (optional): callback for FastCGI authorizer requests ('authorize' event)
