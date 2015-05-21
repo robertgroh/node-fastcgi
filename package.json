@@ -25,6 +25,11 @@
     "url": "https://github.com/fbbdev/node-fastcgi.git"
   },
   "devDependencies": {
-    "jscs": "^1.13.1"
+    "chai": "^2.3.0",
+    "fcgi-handler": "git+https://github.com/aredridel/fcgi-handler.git#afe16eae560280d5dd84241d0c45e5db0f939d25",
+    "jscs": "^1.13.1",
+    "lodash": "^3.9.1",
+    "mocha": "^2.2.5",
+    "request": "^2.55.0"
   }
 }
