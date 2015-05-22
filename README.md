@@ -6,6 +6,7 @@ node-fastcgi
 [![Dependency Status](https://gemnasium.com/robertgroh/node-fastcgi.svg)](https://gemnasium.com/robertgroh/node-fastcgi)
 [![devDependency Status](https://david-dm.org/robertgroh/node-fastcgi/dev-status.svg)](https://david-dm.org/robertgroh/node-fastcgi#info=devDependencies)
 [![Code Climate](https://codeclimate.com/github/robertgroh/node-fastcgi/badges/gpa.svg)](https://codeclimate.com/github/robertgroh/node-fastcgi)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 [![NPM](https://nodei.co/npm/node-fastcgi.png?downloads=true)](https://nodei.co/npm/node-fastcgi/)
 
