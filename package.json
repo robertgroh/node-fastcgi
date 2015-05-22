@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "chai": "^2.3.0",
+    "codeclimate-test-reporter": "0.0.4",
     "coveralls": "^2.11.2",
     "fcgi-handler": "git+https://github.com/aredridel/fcgi-handler.git#afe16eae560280d5dd84241d0c45e5db0f939d25",
     "istanbul": "^0.3.14",
@@ -37,6 +38,6 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha ./test/mocha/integration",
-    "coveralls": "./node_modules/.bin/istanbul cover --report lcovonly ./node_modules/mocha/bin/_mocha -- ./test/mocha/integration && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "publishCoverage": "./node_modules/.bin/istanbul cover --report lcovonly ./node_modules/mocha/bin/_mocha -- ./test/mocha/integration && ./node_modules/.bin/coveralls <./coverage/lcov.info || ./node_modules/.bin/codeclimate <./coverage/lcov.info"
   }
 }

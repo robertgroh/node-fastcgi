@@ -5,6 +5,7 @@ node-fastcgi
 [![Coverage Status](https://coveralls.io/repos/robertgroh/node-fastcgi/badge.svg?branch=integrationTest)](https://coveralls.io/r/robertgroh/node-fastcgi?branch=integrationTest)
 [![Dependency Status](https://gemnasium.com/robertgroh/node-fastcgi.svg)](https://gemnasium.com/robertgroh/node-fastcgi)
 [![devDependency Status](https://david-dm.org/robertgroh/node-fastcgi/dev-status.svg)](https://david-dm.org/robertgroh/node-fastcgi#info=devDependencies)
+[![Code Climate](https://codeclimate.com/github/robertgroh/node-fastcgi/badges/gpa.svg)](https://codeclimate.com/github/robertgroh/node-fastcgi)
 
 [![NPM](https://nodei.co/npm/node-fastcgi.png?downloads=true)](https://nodei.co/npm/node-fastcgi/)
 

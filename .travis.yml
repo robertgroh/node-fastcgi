@@ -3,5 +3,8 @@ node_js:
   - '0.10'
   - "0.12"
   - "iojs"
+addons:
+  code_climate:
+    repo_token: c1407a219dd2320affe3303b9dce278758abe22d79ffdbd6b8b3fd5122385b78
 after_script:
-  - npm run coveralls
+  - npm run publishCoverage
